@@ -24,8 +24,8 @@ jobs:
 
     - name: Build
       run: |
-        pnpm install
-        pnpm run docs:build
+        npm install
+        npm run docs:build
     - name: Depoly
       uses: peaceiris/actions-gh-pages@v3 # 一个自动发布github pages的action
       with:
