@@ -1,59 +1,74 @@
 import { defineConfig,type DefaultTheme} from 'vitepress'
-const getNav = () =>(
-  [
-    { text: 'Home',link: '/index' },
-    { text: '博客',link:'/blog/gaius-utils/scrollTo' },
-    {
-      text: '项目',link:'/project/scaling-dollop/effect'
-    }
-  ]
-)
-const getBlog = ():DefaultTheme.SidebarItem[] =>([
+const NavList = [
+  { text: '首页',link: '/index' },
+  { text: '学习记录',link:'/record/index' },
   {
-    text: 'gaius-utils',
-    base:'/blog/gaius-utils',
-    items: [
+    text: '项目',link:'/project/index'
+  }
+]
+const RecordList:DefaultTheme.SidebarItem[] = [
+  {
+    text: 'js基础',
+    base:'/record/js',
+    items:[
+      {
+        text:'手写函数',
+        link:'/handwriting'
+      }
+    ]   
+  },{
+    text:'vue源码解析',
+    base:'/record/vue',
+    items:[
+  
+    ]
+  }
+]
+const ProjectList:DefaultTheme.SidebarItem[] = [{
+  text: '项目',
+  base:'/project',
+  link:'/index',
+  items: [
+    { text: '后台管理系统(低代码)', base:'/project/gaius-admin', link:'/index', items:[]  },
+    {
+      text:'组件库(gaius-utils)',
+      base:'/project/gaius-utils',
+      link:'/index',
+      items: [
       { text: '前端滚动条滚动到指定位置', link: '/scrollTo' },
       { text: '实现一个简单的虚拟列表', link: '/virtualList' },
       { text: '虚拟列表进阶', link: '/virtualListPlus' },
       { text: '发布-订阅模式', link: '/pubSub' },
     ]
-  },{
-    text:'vue源码解析',
-    base:'/blog/vue',
-    items:[
-  
-    ]
-  }
-])
-const getProject = ():DefaultTheme.SidebarItem[] =>([{
-  text: 'scaling-dollop',
-  base:'/project/scaling-dollop',
-  items: [
-    { text: '目标', link: '/effect' },
+    }
   ]
-}])
+}]
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "gaius's note",
-  description: "A VitePress Site",
+  title: "gaius blog",
+  description: "我在学习和实践前端开发过程中的所有笔记、经验分享和技术探索",
   base:'/',
   srcDir:'./src',
+  lang:'zh-CN',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav:getNav(),
+    nav:NavList,
+    logo:'/icon.png',
     sidebar:{
-      '/blog':{
-        items:getBlog()
-      },
-      '/project':{
-        items:getProject()
-      }
+      '/record/':RecordList,
+      '/project/':ProjectList
     },
-
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    outline: {
+      label: '页面导航',
+      level:'deep'
+    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Gaius-98/gaius-blog' }
-    ]
+      { icon: 'github', link: 'https://github.com/Gaius-98'}
+    ],
   }
 })

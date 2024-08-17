@@ -1,6 +1,6 @@
 实现方式主要是通过设置dom的scrollTop属性或者使用scrollTo函数。
 
-### 1.简易实现
+### 1.简易实现{#simple-realization}
 
 当我们的需求比较简单时，知道确切要滚动的位置，那么只需要设置对应dom的scrollTop即可，
 如滚动到表格(el-table)的底部
@@ -49,6 +49,5 @@ const scrollToDom = (to: Element, container?:Element) => {
 通过`getBoundingClientRect()`获取当前dom及其父元素对应的dom相对于视口的位置
 `isScroll`判断当前容器dom是否能滚动。使用`scrollTo`可以移动到指定的位置需要指定top或者left的值。
 
-### 如果想直接使用，这里有对应的npm组件[gaius-utils](https://www.npmjs.com/package/gaius-utils)----vue3，
-
-不仅封装了一些常用函数，同时还有可视化组件，拖拽组件，虚拟列表等组件供你使用。同时如果你有什么需要可以在[github](https://github.com/Gaius-98/utils)上提issue。
+### npm组件
+[gaius-utils](https://www.npmjs.com/package/gaius-utils)不仅封装了一些常用函数，同时还有可视化组件，拖拽组件，虚拟列表等组件供你使用。同时如果你有什么需要可以在[github](https://github.com/Gaius-98/utils)上提issue。
