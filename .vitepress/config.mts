@@ -29,10 +29,7 @@ const ProjectList:DefaultTheme.SidebarItem[] = [{
   base:'/project',
   link:'/index',
   items: [
-    {
-      text:'部署手册',base:'/project/opex',link:'/index'
-    },
-    { text: '后台管理系统', base:'/project/gaius-admin', link:'/index', 
+    { text: 'gaius-admin', base:'/project/gaius-admin', link:'/index', 
       items:[
         {text:'简介',link:'/'},
         {text:'安装手册',link:'/setup'}
@@ -47,7 +44,13 @@ const ProjectList:DefaultTheme.SidebarItem[] = [{
       { text: '实现一个简单的虚拟列表', link: '/virtualList' },
       { text: '虚拟列表进阶', link: '/virtualListPlus' },
       { text: '发布-订阅模式', link: '/pubSub' },
-    ]
+    ],
+    
+    },
+    {
+      text:'部署',base:'/project/opex',link:'/index',items:[
+        {text:'云服务器简单部署',link:'/'}
+      ]
     }
   ]
 }]
