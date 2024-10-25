@@ -17,7 +17,7 @@ features:
   - icon:
         src: /cool-feature-icon.svg
     title: gaius-admin
-    details: 一款基于低代码平台的后台管理系统
+    details: 后台管理系统
     link: /project/gaius-admin/
     linkText: 详情
   - icon:

@@ -29,7 +29,15 @@ const ProjectList:DefaultTheme.SidebarItem[] = [{
   base:'/project',
   link:'/index',
   items: [
-    { text: '后台管理系统(低代码)', base:'/project/gaius-admin', link:'/index', items:[]  },
+    {
+      text:'部署手册',base:'/project/opex',link:'/index'
+    },
+    { text: '后台管理系统', base:'/project/gaius-admin', link:'/index', 
+      items:[
+        {text:'简介',link:'/'},
+        {text:'安装手册',link:'/setup'}
+      ]  
+    },
     {
       text:'组件库(gaius-utils)',
       base:'/project/gaius-utils',
