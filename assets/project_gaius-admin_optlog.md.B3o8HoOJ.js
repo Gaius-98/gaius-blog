@@ -1,1 +1,0 @@
-import{_ as t,c as e,o}from"./chunks/framework.CGHvQLJz.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"project/gaius-admin/optlog.md","filePath":"project/gaius-admin/optlog.md"}'),a={name:"project/gaius-admin/optlog.md"};function r(s,c,n,p,i,d){return o(),e("div")}const _=t(a,[["render",r]]);export{l as __pageData,_ as default};
