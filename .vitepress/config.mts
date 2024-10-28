@@ -32,7 +32,15 @@ const ProjectList:DefaultTheme.SidebarItem[] = [{
     { text: 'gaius-admin', base:'/project/gaius-admin', link:'/index', 
       items:[
         {text:'简介',link:'/'},
-        {text:'安装手册',link:'/setup'}
+        {text:'安装手册',link:'/setup'},
+        { 
+          text:'开发指南',
+          items:[
+            {text:'权限控制详解',link:'/role'},
+            {text:'操作日志详解',link:'/optlog'}
+          ]
+        }
+
       ]  
     },
     {
