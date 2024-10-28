@@ -20,7 +20,7 @@ export class OperationInterceptor implements NestInterceptor {
     private reflector: Reflector,
   ) {}
   intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
-    //暂存以下响应的开始时间
+    //暂存下响应的开始时间
     const startTime = Date.now();
     return next.handle()
   }
