@@ -57,7 +57,8 @@ const ProjectList:DefaultTheme.SidebarItem[] = [{
     },
     {
       text:'部署',base:'/project/opex',link:'/index',items:[
-        {text:'云服务器简单部署',link:'/'}
+        {text:'云服务器简单部署',link:'/'},
+        {text:'CI/CD',link:'/cicd'}
       ]
     }
   ]

@@ -104,5 +104,5 @@ export class xxxxxController {
 }
 ```
 ### 最后
-如果你现在需要使用`Nestjs`创建服务，不妨试试[gaius-admin](./index.md),它是一个`all in js`后台管理系统，旨在为开发者和企业提供高效、灵活的管理解决方案。该系统基于(`Vue3`+`Ant Design`+`Nest`)技术栈构建。
+如果你现在需要使用`Nestjs`创建后端服务，不妨试试[gaius-admin](./index.md),它是一个`all in js`后台管理系统，旨在为开发者和企业提供高效、灵活的管理解决方案。该系统基于(`Vue3`+`Ant Design`+`Nest`)技术栈构建。
    
