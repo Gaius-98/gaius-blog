@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as c}from"./chunks/framework.CGHvQLJz.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"project/opex/cicd.md","filePath":"project/opex/cicd.md"}'),o={name:"project/opex/cicd.md"};function r(a,p,s,n,d,i){return c(),t("div")}const f=e(o,[["render",r]]);export{m as __pageData,f as default};
