@@ -9,19 +9,23 @@ hero:
     src: /assets/images/global/user.jpg
     alt: Gaius
 features:
+
+  - icon: 💥
+    title: Gaius Admin
+    details: 后台管理系统
+    link: /project/gaius-admin/
+    linkText: 详情
+  - icon: 🚀
+    title: Quick Build
+    details: 低代码开发平台
+    link: /project/lowcode/
+    linkText: 详情
   - icon: 🛠️
     title: gaius-utils
     details: 个人的工具库组件
     link: /project/gaius-utils/
     linkText: 详情
-  - icon:
-        src: /assets/images/global/logo.png
-    title: gaius-admin
-    details: 后台管理系统
-    link: /project/gaius-admin/
-    linkText: 详情
-  - icon:
-      src: /assets/images/global/user.jpg
+  - icon: 📃
     title: 日志
     details: 记录前端学习的笔记
     link: /record/
