@@ -68,7 +68,7 @@ const ProjectList:DefaultTheme.SidebarItem[] = [{
 export default defineConfig({
   title: "gaius blog",
   description: "我在学习和实践前端开发过程中的所有笔记、经验分享和技术探索",
-  base:'./',
+  
   srcDir:'./src',
   lang:'zh-CN',
   themeConfig: {
