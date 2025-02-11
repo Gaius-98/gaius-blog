@@ -1,11 +1,11 @@
-# QuickBuildWeb 低代码开发平台
+# QuickBuild 低代码开发平台
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-brightgreen)](https://github.com/Gaius-98/QuickBuildWeb)
 [![Demo Environment](https://img.shields.io/badge/Demo-Environment-blue)](http://120.26.161.36:9090/)
 
 ## 🌟 项目概述
 
-QuickBuildWeb 是一款基于现代Web技术栈构建的低代码开发平台，旨在通过可视化配置方式快速构建企业级应用。平台整合了数据源管理、表单设计、列表配置、仪表板展示等核心功能模块，显著降低开发门槛，提升开发效率。
+QuickBuild 是一款基于现代Web技术栈构建的低代码开发平台，旨在通过可视化配置方式快速构建企业级应用。平台整合了数据源管理、表单设计、列表配置、仪表板展示等核心功能模块，显著降低开发门槛，提升开发效率。
 
 ## 🛠️ 技术栈
 - **前端框架**: Vue3 + Vite
