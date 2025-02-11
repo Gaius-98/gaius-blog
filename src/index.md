@@ -18,7 +18,7 @@ features:
   - icon: 🚀
     title: Quick Build
     details: 低代码开发平台
-    link: /project/lowcode/
+    link: /project/quick-build/
     linkText: 详情
   - icon: 🛠️
     title: gaius-utils

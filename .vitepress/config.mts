@@ -43,6 +43,18 @@ const ProjectList:DefaultTheme.SidebarItem[] = [{
 
       ]  
     },
+    { text: 'quick-build', base:'/project/quick-build', link:'/index', 
+      items:[
+        {text:'简介',link:'/'},
+        { 
+          text:'开发指南',
+          items:[
+            {text:'动态加载与模块化管理实践',link:'/dynamicLoader'},
+          ]
+        }
+
+      ]  
+    },
     {
       text:'组件库(gaius-utils)',
       base:'/project/gaius-utils',
