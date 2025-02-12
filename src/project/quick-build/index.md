@@ -1,7 +1,6 @@
 # QuickBuild 低代码开发平台
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-brightgreen)](https://github.com/Gaius-98/QuickBuildWeb)
-[![Demo Environment](https://img.shields.io/badge/Demo-Environment-blue)](http://120.26.161.36:9090/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-brightgreen)](https://github.com/Gaius-98/QuickBuildWeb) [![Demo Environment](https://img.shields.io/badge/Demo-Environment-blue)](http://120.26.161.36:9090/)
 
 ## 🌟 项目概述
 
