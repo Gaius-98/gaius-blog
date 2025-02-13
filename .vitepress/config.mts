@@ -16,7 +16,18 @@ const RecordList:DefaultTheme.SidebarItem[] = [
         link:'/handwriting'
       }
     ]   
-  },{
+  },
+  {
+    text:'AI大模型',
+    base:'/record/model',
+    items:[
+      {
+        text:'本地部署 DeepSeek 大模型',
+        link:'/setup-deepseek'
+      }
+    ]
+  },
+  {
     text:'vue源码解析',
     base:'/record/vue',
     items:[
